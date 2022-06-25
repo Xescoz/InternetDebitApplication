@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         };
-        timer.schedule(doAsynchronousTask, 0, 10000); //execute in every 1000 ms
+        timer.schedule(doAsynchronousTask, 0, 60000); //execute in every 1 minute
     }
 
     //create the notification with the low debit
